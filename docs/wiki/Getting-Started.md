@@ -29,6 +29,11 @@ cd MyAgent
 
 ### Step 2: Open in your AI IDE
 
+Example:
+```bash
+$env:PYTHONUTF8=1; $env:PYTHONPATH="src"; "C:\ProgramData\anaconda3\python.exe" -m athena init --ide antigravity 
+```
+
 | IDE | How to Init |
 |:----|:------------|
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `athena init --ide claude` |
